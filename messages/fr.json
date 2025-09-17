@@ -1,81 +1,108 @@
 {
   "HomePage": {
-    "hero_title_1": "Cours en ligne gratuit",
-    "hero_title_2": "Introduction à la",
-    "hero_title_3": "Cybersécurité",
-    "hero_sub": "Protégez votre vie numérique en une seule session",
-    "hero_day": "25 Juillet 2025",
-    "hero_meet": "sur Google Meet",
-    "hero_free": "100% Gratuit",
-    "hero_btn": "Inscrivez-vous gratuitement",
-    "about_title": "À propos de la session",
+    "hero_title_1": "Cybersécurité",
+    "hero_title_2": "Formation de Maîtrise",
+    "hero_title_3": "Sécurité Informatique",
+    "hero_sub": "Niveau Débutant & Intermédiaire",
+    "hero_day_1": "Octobre",
+    "hero_day_2": "11, 12 & 13, 2025",
+    "hero_meet_1": "Belsons Technologies",
+    "hero_meet_2": "Bureau - Cheraga, Alger",
+    "hero_free_1": "3 Jours",
+    "hero_free_2": "En Présentiel",
+    "hero_btn_1": "Places Limitées",
+    "hero_btn_2": "Inscrivez-vous Maintenant",
+
+    "about_title": "Ce que vous allez apprendre",
+
+    "days_1_title": "Jour 1 :",
+    "days_1_desc": "Fondamentaux du hacking et reconnaissance",
+    "days_1_list_1": "Systèmes d’exploitation & installation de Kali Linux.",
+    "days_1_list_2": "Reconnaissance & Scan.",
+    "days_1_list_3": "Atelier pratique :",
+    "days_1_list_3_sub_1": "A- Scan réseau & évaluation des vulnérabilités.",
+    "days_1_list_3_sub_2": "B- Énumération des services.",
+
+    "days_2_title": "Jour 2 :",
+    "days_2_desc": "Introduction au hacking matériel & sécurité physique :",
+    "days_2_list_1": "Keyloggers (logiciels & matériels)",
+    "days_2_list_2": "Piratage radio & sécurité des télécommunications",
+    "days_2_list_3": "Attaques ciblées d’ingénierie sociale :",
+    "days_2_list_3_sub_1": "A- USB Rubber Ducky (scripts & démonstration)",
+    "days_2_list_3_sub_2": "B- Wi-Fi Pineapple & Flipper Zero.",
+
+    "days_3_title": "Jour 3 :",
+    "days_3_desc": "Carrières en cybersécurité & comment progresser :",
+    "days_3_list_1": "Comment préparer votre CV en cybersécurité",
+    "days_3_list_2": "Feuille de route des certifications.",
+    "days_3_list_3": "Comment approfondir vos connaissances et où chercher.",
+
+    "about_desc": "Vous gagnerez des compétences pratiques, un certificat de formation et la confiance pour sécuriser votre monde numérique.",
     "about_desc_1": "Dans le monde numérique d’aujourd’hui, rester en sécurité en ligne n’est pas une option — c’est essentiel.",
-    "about_desc_2": "Participez à une session puissante et pratique qui vous aidera à :",
+    "about_desc_2": "Rejoignez-nous pour une session pratique et puissante qui vous aidera à :",
     "about_list": [
-      "Comprendre les bases de la cybersécurité",
-      "Reconnaître les menaces en ligne telles que le phishing, les arnaques et les malwares",
-      "Protéger vos appareils et vos données personnelles",
-      "Créer des mots de passe plus sûrs et éviter les pièges numériques",
-      "Développer des habitudes intelligentes pour vous protéger, vous et votre entreprise"
+      "Comprendre les fondamentaux de la cybersécurité",
+      "Reconnaître les menaces en ligne comme le phishing, les arnaques et les malwares",
+      "Protéger vos appareils et données personnelles",
+      "Créer des mots de passe solides et éviter les pièges numériques",
+      "Développer des habitudes intelligentes qui protègent vous et votre entreprise"
     ],
-    "about_mentor": "Rencontrez votre mentor",
+    "about_mentor": "Rencontrez votre formateur",
     "about_mentor_name": "Bilel Bougarne",
-    "about_mentor_desc": "Consultant en cybersécurité & formateur technologique avec des années d’expérience sur le terrain, aidant individus et entreprises à se protéger contre les cyberattaques.",
-    "who_title": "À qui s’adresse cette session ?",
+    "about_mentor_desc": "Consultant en cybersécurité & formateur tech avec des années d’expérience, aidant individus et entreprises à se protéger des cyberattaques.",
+    "who_title": "À qui s’adresse cette formation ?",
     "who_sub": "Cette session est parfaite pour",
-    "who_desc": "Aucune compétence technique requise, tout sera expliqué en langage simple !",
+    "who_desc": "Aucune base technique nécessaire — tout sera expliqué simplement !",
     "who_list": [
       "Étudiants",
       "Professionnels",
       "Entrepreneurs",
       "Toute personne curieuse de la sécurité numérique"
     ],
-    "building_title_1": "Vous êtes sur la bonne voie",
-    "building_title_2": " — les produits numériques vous libèrent",
+    "building_title_1": "Pourquoi vous allez adorer ce cours",
+    "building_title_2": "Adapté aux débutants & intermédiaires",
+    "building_title_3": "Aucune expérience avancée requise",
     "building_list": [
-      "Explications claires et accessibles aux débutants",
-      "Conseils pratiques à appliquer immédiatement",
-      "Session en direct avec questions/réponses",
-      "Aucun paiement, aucun engagement – venez simplement apprendre"
+      "Formation pratique – Exercices avec outils & scénarios réels",
+      "Certification officielle – Recevez un certificat",
+      "Encadrement expert – Apprenez directement avec Bilel Bougarne",
+      "Expérience en présentiel – Réseautez & collaborez avec vos pairs",
+      "Investissement abordable – Réduction spéciale pour les étudiants"
     ],
     "form_title": "Prêt à nous rejoindre ?",
     "form_desc": "Inscrivez-vous maintenant et recevez le lien Google Meet par email :",
-    "faq_title": "Questions fréquentes",
-    "faq_desc": "Éclaircissons les doutes et les préoccupations.",
+    "faq_title": "FAQ",
+    "faq_desc": "Réponses à vos questions.",
     "faq_list": [
       {
-        "qst": "Est-ce vraiment gratuit ?",
-        "answ": "Oui – 100% gratuit. Aucun frais caché, aucune arnaque."
+        "qst": "Ai-je besoin d’une expérience en informatique ?",
+        "answ": "Non – accessible à tous. Aucune expérience préalable requise."
       },
       {
-        "qst": "La session sera-t-elle enregistrée ?",
-        "answ": "La session sera en direct, non enregistrée."
-      },
-      {
-        "qst": "Y a-t-il un certificat ?",
-        "answ": "Non, cette session vise la sensibilisation et l’apprentissage pratique. Aucun certificat ne sera délivré."
+        "qst": "Vais-je recevoir un certificat ?",
+        "answ": "Oui, un certificat sera remis à la fin de la formation."
       }
     ]
   },
   "Form": {
-    "name_title": "Nom complet (obligatoire)",
+    "name_title": "Nom Complet (Obligatoire)",
     "name_placeholder": "nom complet",
-    "email_title": "Adresse e-mail (obligatoire)",
+    "email_title": "Adresse Email (Obligatoire)",
     "email_placeholder": "email",
-    "dob_title": "Date de naissance (obligatoire)",
+    "dob_title": "Date de Naissance (Obligatoire)",
     "day_placeholder": "jour",
     "month_placeholder": "mois",
     "year_placeholder": "année",
-    "city_country_title": "Ville et pays (obligatoire)",
+    "city_country_title": "Ville & Pays (Obligatoire)",
     "city_placeholder": "ville",
     "country_placeholder": "pays",
-    "occupation_title": "Profession / Rôle (optionnel)",
+    "occupation_title": "Profession / Rôle (Optionnel)",
     "occupation_placeholder": "profession",
     "message1_title": "Pourquoi voulez-vous suivre ce cours ?",
     "message1_placeholder": "Pourquoi voulez-vous suivre ce cours ?",
     "message2_title": "Comment avez-vous entendu parler de ce cours ?",
     "message2_placeholder": "Comment avez-vous entendu parler de ce cours ?",
-    "submit": "S'inscrire maintenant",
+    "submit": "S’inscrire Maintenant",
     "submitting": "Envoi en cours..."
   }
 }

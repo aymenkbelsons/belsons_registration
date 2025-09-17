@@ -7,6 +7,8 @@ import HeroSection from '@/components/home/HeroSection'
 import AboutSection from '@/components/home/AboutSection'
 import CheckBox from '@/assets/icons/CheckBox'
 import { useTranslations } from 'next-intl'
+import classNames from 'classnames'
+import { kanit } from '@/assets/fonts/kanit'
 
 const Page = () => {
   const t = useTranslations('HomePage')
@@ -40,15 +42,19 @@ const Page = () => {
       </Container>
       <Container>
         <div className='w-full flex flex-col items-center gap-8'>
-          <h1 className='text-3xl lg:text-5xl font-semibold'>
-            {t('building_title_1')}
+          <h1 className={classNames('text-3xl lg:text-5xl ', kanit.className)}>
+            <span className='font-semibold'>
+              {t('building_title_1')}
+            </span>
             <br />
             {t('building_title_2')}
+            <br />
+            {t('building_title_3')}
           </h1>
           <ul className='flex flex-col gap-2.5'>
             {list.map((item, i) => (
-              <li key={i} className='flex items-center gap-5 lg:gap-9 text-grey text-lg lg:text-2xl ' >
-                <CheckBox />
+              <li key={i} className='flex items-center gap-3 text-grey text-lg lg:text-2xl ' >
+                <span>-</span>
                 <span>
                   {item}
                 </span>

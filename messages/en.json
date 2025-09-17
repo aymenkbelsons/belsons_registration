@@ -1,14 +1,44 @@
 {
   "HomePage": {
-    "hero_title_1": "Free Online Course",
-    "hero_title_2": "Introduction to",
+    "hero_title_1": "Cybersecurity",
+    "hero_title_2": "Mastery Training",
     "hero_title_3": "Cyber Security",
-    "hero_sub": "Protect Your Digital Life in Just One Session",
-    "hero_day": "July 25, 2025",
-    "hero_meet": "on Google Meet",
-    "hero_free": "100% Free",
-    "hero_btn": "Register Now for Free",
-    "about_title": "About the Session",
+    "hero_sub": "Beginners & Intermediate Level",
+    "hero_day_1": "october ",
+    "hero_day_2": "11, 12 & 13, 2025",
+    "hero_meet_1": "Belsons Technologies",
+    "hero_meet_2": "Office- cheraga,  algeirs",
+    "hero_free_1": "3-Day",
+    "hero_free_2": "In-Person",
+    "hero_btn_1": "Limited Seats",
+    "hero_btn_2": "Register Now",
+
+    "about_title": "What You’ll Learn",
+
+    "days_1_title": "Day 1:",
+    "days_1_desc": "Hacking fundamentals and reconnaissance",
+    "days_1_list_1": "Operating Systems & Kali Linux installation.",
+    "days_1_list_2": "Reconnaissance & Scanning.",
+    "days_1_list_3": "Practical Lab:",
+    "days_1_list_3_sub_1": "A- Network Scanning & Vulnerability assessment.",
+    "days_1_list_3_sub_2": "B- Services Enumeration.",
+
+    "days_2_title": "Day 2:",
+    "days_2_desc": "Introduction to hardware hacking & physical security:",
+    "days_2_list_1": "Keyloggers (Software & Hardware)",
+    "days_2_list_2": "Radio Hacking & telecommunications security",
+    "days_2_list_3": "Targeted social engineering attacks:",
+    "days_2_list_3_sub_1": "A- Usb Rubber duckies (scripting & demo)",
+    "days_2_list_3_sub_2": "B- Wi-fi Pineapple & Flipper Zero.",
+
+    "days_3_title": "Day 3:",
+    "days_3_desc": "Careers in Cybersecurity & How to grow in the field:",
+    "days_3_list_1": "How to setup your CV in cyber security ",
+    "days_3_list_2": "Certificates roadmap.",
+    "days_3_list_3": "How to learn more about the field and where to.",
+
+    "about_desc": "And you you’ll gain practical skills, a training certificate, and the confidence to secure your digital worldMeet Your ",
+
     "about_desc_1": "In today’s digital world, staying safe online isn’t optional — it’s essential.",
     "about_desc_2": "Join us for a powerful and practical session that will help you:",
     "about_list": [
@@ -30,13 +60,15 @@
       "Entrepreneurs",
       "Anyone curious about digital safety"
     ],
-    "building_title_1": "You’re building the right path",
-    "building_title_2": " — digital products set you free",
+    "building_title_1": "Why You’ll Love This Course",
+    "building_title_2": "Beginner & Intermediate Friendly",
+    "building_title_3": "No advanced background needed",
     "building_list": [
-      "Clear, beginner-focused explanations",
-      "Hands-on tips you can use right away",
-      "Live Q&A with the instructor",
-      "No payment, no commitment – just show up and learn"
+      "Hands-On Training – Practice with real tools & scenarios",
+      "Certified Completion – Receive an official certificate",
+      "Expert Guidance – Learn directly from Bilel Bougarne",
+      "In-Person Experience – Network & collaborate with peers",
+      "Affordable Investment – Special discount for students"
     ],
     "form_title": "Ready to Join?",
     "form_desc": "Register now and receive the Google Meet link by email:",
@@ -44,16 +76,12 @@
     "faq_desc": "Clearing doubts and concerns.",
     "faq_list": [
       {
-        "qst": "Is it really free?",
+        "qst": "Do I need previous IT experience?",
         "answ": "Yes – 100% free. No hidden fees, no catch."
       },
       {
-        "qst": "Will the session be recorded?",
+        "qst": "Will I get a certificate?",
         "answ": "The session will be live, not recorded. "
-      },
-      {
-        "qst": "Do I get a certificate?",
-        "answ": "No, this session is focused on awareness and practical learning. No certificate will be issued."
       }
     ]
   },
