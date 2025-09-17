@@ -1,0 +1,81 @@
+{
+  "HomePage": {
+    "hero_title_1": "Free Online Course",
+    "hero_title_2": "Introduction to",
+    "hero_title_3": "Cyber Security",
+    "hero_sub": "Protect Your Digital Life in Just One Session",
+    "hero_day": "July 25, 2025",
+    "hero_meet": "on Google Meet",
+    "hero_free": "100% Free",
+    "hero_btn": "Register Now for Free",
+    "about_title": "About the Session",
+    "about_desc_1": "In today’s digital world, staying safe online isn’t optional — it’s essential.",
+    "about_desc_2": "Join us for a powerful and practical session that will help you:",
+    "about_list": [
+      "Understand the fundamentals of cyber security",
+      "Recognize online threats like phishing, scams, and malware",
+      "Safeguard your devices and personal data",
+      "Create stronger passwords and avoid digital traps",
+      "Developing smart habits that protect you and your business"
+    ],
+    "about_mentor": "Meet Your Mentor",
+    "about_mentor_name": "Bilel Bougarne",
+    "about_mentor_desc": "Cyber Security Consultant & Tech Educator With years of real-world experience, helping individuals and companies protect themselves from cyber attacks.",
+    "who_title": "Who Should Attend?",
+    "who_sub": "This session is perfect for",
+    "who_desc": "No tech background needed everything will be explained in plain language!",
+    "who_list": [
+      "Students",
+      "Professionals",
+      "Entrepreneurs",
+      "Anyone curious about digital safety"
+    ],
+    "building_title_1": "You’re building the right path",
+    "building_title_2": " — digital products set you free",
+    "building_list": [
+      "Clear, beginner-focused explanations",
+      "Hands-on tips you can use right away",
+      "Live Q&A with the instructor",
+      "No payment, no commitment – just show up and learn"
+    ],
+    "form_title": "Ready to Join?",
+    "form_desc": "Register now and receive the Google Meet link by email:",
+    "faq_title": "FAQs",
+    "faq_desc": "Clearing doubts and concerns.",
+    "faq_list": [
+      {
+        "qst": "Is it really free?",
+        "answ": "Yes – 100% free. No hidden fees, no catch."
+      },
+      {
+        "qst": "Will the session be recorded?",
+        "answ": "The session will be live, not recorded. "
+      },
+      {
+        "qst": "Do I get a certificate?",
+        "answ": "No, this session is focused on awareness and practical learning. No certificate will be issued."
+      }
+    ]
+  },
+  "Form": {
+    "name_title": "Full Name (Required)",
+    "name_placeholder": "full name",
+    "email_title": "Email Address (Required)",
+    "email_placeholder": "email",
+    "dob_title": "Date of Birth (Required)",
+    "day_placeholder": "day",
+    "month_placeholder": "month",
+    "year_placeholder": "year",
+    "city_country_title": "City & Country (Required)",
+    "city_placeholder": "city",
+    "country_placeholder": "country",
+    "occupation_title": "Occupation / Role (Optional)",
+    "occupation_placeholder": "occupation",
+    "message1_title": "Why do you want to join this course?",
+    "message1_placeholder": "Why do you want to join this course?",
+    "message2_title": "How did you hear about this course?",
+    "message2_placeholder": "How did you hear about this course?",
+    "submit": "Register Now",
+    "submitting": "Submitting..."
+  }
+}

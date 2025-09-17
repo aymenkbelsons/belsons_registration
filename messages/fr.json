@@ -1,0 +1,81 @@
+{
+  "HomePage": {
+    "hero_title_1": "Cours en ligne gratuit",
+    "hero_title_2": "Introduction à la",
+    "hero_title_3": "Cybersécurité",
+    "hero_sub": "Protégez votre vie numérique en une seule session",
+    "hero_day": "25 Juillet 2025",
+    "hero_meet": "sur Google Meet",
+    "hero_free": "100% Gratuit",
+    "hero_btn": "Inscrivez-vous gratuitement",
+    "about_title": "À propos de la session",
+    "about_desc_1": "Dans le monde numérique d’aujourd’hui, rester en sécurité en ligne n’est pas une option — c’est essentiel.",
+    "about_desc_2": "Participez à une session puissante et pratique qui vous aidera à :",
+    "about_list": [
+      "Comprendre les bases de la cybersécurité",
+      "Reconnaître les menaces en ligne telles que le phishing, les arnaques et les malwares",
+      "Protéger vos appareils et vos données personnelles",
+      "Créer des mots de passe plus sûrs et éviter les pièges numériques",
+      "Développer des habitudes intelligentes pour vous protéger, vous et votre entreprise"
+    ],
+    "about_mentor": "Rencontrez votre mentor",
+    "about_mentor_name": "Bilel Bougarne",
+    "about_mentor_desc": "Consultant en cybersécurité & formateur technologique avec des années d’expérience sur le terrain, aidant individus et entreprises à se protéger contre les cyberattaques.",
+    "who_title": "À qui s’adresse cette session ?",
+    "who_sub": "Cette session est parfaite pour",
+    "who_desc": "Aucune compétence technique requise, tout sera expliqué en langage simple !",
+    "who_list": [
+      "Étudiants",
+      "Professionnels",
+      "Entrepreneurs",
+      "Toute personne curieuse de la sécurité numérique"
+    ],
+    "building_title_1": "Vous êtes sur la bonne voie",
+    "building_title_2": " — les produits numériques vous libèrent",
+    "building_list": [
+      "Explications claires et accessibles aux débutants",
+      "Conseils pratiques à appliquer immédiatement",
+      "Session en direct avec questions/réponses",
+      "Aucun paiement, aucun engagement – venez simplement apprendre"
+    ],
+    "form_title": "Prêt à nous rejoindre ?",
+    "form_desc": "Inscrivez-vous maintenant et recevez le lien Google Meet par email :",
+    "faq_title": "Questions fréquentes",
+    "faq_desc": "Éclaircissons les doutes et les préoccupations.",
+    "faq_list": [
+      {
+        "qst": "Est-ce vraiment gratuit ?",
+        "answ": "Oui – 100% gratuit. Aucun frais caché, aucune arnaque."
+      },
+      {
+        "qst": "La session sera-t-elle enregistrée ?",
+        "answ": "La session sera en direct, non enregistrée."
+      },
+      {
+        "qst": "Y a-t-il un certificat ?",
+        "answ": "Non, cette session vise la sensibilisation et l’apprentissage pratique. Aucun certificat ne sera délivré."
+      }
+    ]
+  },
+  "Form": {
+    "name_title": "Nom complet (obligatoire)",
+    "name_placeholder": "nom complet",
+    "email_title": "Adresse e-mail (obligatoire)",
+    "email_placeholder": "email",
+    "dob_title": "Date de naissance (obligatoire)",
+    "day_placeholder": "jour",
+    "month_placeholder": "mois",
+    "year_placeholder": "année",
+    "city_country_title": "Ville et pays (obligatoire)",
+    "city_placeholder": "ville",
+    "country_placeholder": "pays",
+    "occupation_title": "Profession / Rôle (optionnel)",
+    "occupation_placeholder": "profession",
+    "message1_title": "Pourquoi voulez-vous suivre ce cours ?",
+    "message1_placeholder": "Pourquoi voulez-vous suivre ce cours ?",
+    "message2_title": "Comment avez-vous entendu parler de ce cours ?",
+    "message2_placeholder": "Comment avez-vous entendu parler de ce cours ?",
+    "submit": "S'inscrire maintenant",
+    "submitting": "Envoi en cours..."
+  }
+}
