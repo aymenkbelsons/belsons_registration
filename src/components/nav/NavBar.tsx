@@ -14,7 +14,7 @@ const NavBar = () => {
 
   const locales = [
     { code: 'en', label: 'EN' },
-    { code: 'fr', label: 'FR' },
+    // { code: 'fr', label: 'FR' },
     { code: 'ar', label: 'AR' },
   ];
 

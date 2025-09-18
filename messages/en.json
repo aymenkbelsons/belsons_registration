@@ -13,6 +13,9 @@
     "hero_btn_1": "Limited Seats",
     "hero_btn_2": "Register Now",
 
+    "hero_tainning": "trainning fees :",
+    "hero_student": "students fees :-25%",
+
     "about_title": "What You’ll Learn",
 
     "days_1_title": "Day 1:",
@@ -70,6 +73,9 @@
       "In-Person Experience – Network & collaborate with peers",
       "Affordable Investment – Special discount for students"
     ],
+    "community": "Join the Belsons community",
+    "community_desc": "Get product updates, support tips, and exclusive previews from Belsons Technologies.",
+    "community_join": "WhatsApp Community",
     "form_title": "Ready to Join?",
     "form_desc": "Register now and receive the Google Meet link by email:",
     "faq_title": "FAQs",
@@ -112,6 +118,8 @@
     "message2_title": "How did you hear about this course?",
     "message2_placeholder": "How did you hear about this course?",
     "submit": "Register Now",
-    "submitting": "Submitting..."
+    "submitting": "Submitting...",
+    "form_agree_1": "agree to receive course-related emails,",
+    "form_agree_2": "including the session link and reminders."
   }
 }

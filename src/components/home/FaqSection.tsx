@@ -3,11 +3,14 @@ import React, { useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import Container from '../ui/Container'
 import Plus from '@/assets/icons/Plus'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 
 
 const FaqSection = () => {
   const t = useTranslations('HomePage')
+
+  const locale = useLocale()
+  const isRTL = locale === 'ar'
 
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
@@ -18,7 +21,7 @@ const FaqSection = () => {
   }
 
   return (
-    <Container>
+    <Container dir={isRTL ? "rtl" : "ltr"}>
       <div className='flex flex-col items-center gap-16 w-full'>
         <div className='flex flex-col items-center gap-7 w-full lg:w-2/3'>
           <h4 className='text-3xl lg:text-5xl font-semibold'>{t('faq_title')}</h4>

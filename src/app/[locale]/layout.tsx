@@ -16,9 +16,6 @@ const cairo = Cairo({
 
 export const metadata: Metadata = {
   title: 'Belsons | Online cyber security course',
-  icons: {
-    icon: '/public/favicon.jpeg',
-  },
   description:
     "",
   openGraph: {

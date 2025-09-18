@@ -3,12 +3,15 @@ import React from 'react'
 import Container from '../ui/Container'
 import image from '@/assets/images/bilel.png'
 import Image from 'next/image'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import classNames from 'classnames'
 import { kanit } from '@/assets/fonts/kanit'
 
 const AboutSection = () => {
   const t = useTranslations('HomePage')
+
+  const locale = useLocale()
+  const isRTL = locale === 'ar'
 
   const days = [
     {
@@ -47,7 +50,7 @@ const AboutSection = () => {
   ]
 
   return (
-    <Container innerClassName='flex justify-center'>
+    <Container innerClassName='flex justify-center ' dir={isRTL ? "rtl" : "ltr"}>
       <div className='w-full lg:w-2/3 flex flex-col gap-4 lg:gap-7 items-center'>
         <h1 className={classNames('text-3xl lg:text-5xl font-medium', kanit.className)}>
           {t('about_title')}
@@ -60,7 +63,7 @@ const AboutSection = () => {
               key={i}
               className={classNames(
                 'w-full border border-primary rounded-lg p-4 flex flex-col gap-3',
-                i === 2 && 'md:col-span-2 md:w-1/2 mx-auto' // ✅ Center Day 3
+                i === 2 && 'md:col-span-2 md:w-1/2 mx-auto'
               )}
             >
               <h3 className={classNames('text-2xl lg:text-4xl font-medium ', kanit.className)}>{day.title}</h3>
@@ -92,7 +95,7 @@ const AboutSection = () => {
 
         {/* Mentor Section */}
         <div className='mt-8 w-full flex flex-col lg:flex-row items-center gap-4 lg:gap-10 justify-between'>
-          <div className='relative overflow-clip lg:w-1/2 rounded-4xl'>
+          <div className='relative overflow-clip lg:w-1/3 rounded-4xl'>
             <Image alt='bilel' src={image} className='relative z-10 scale-105 w-full' />
             <div className='absolute bottom-1 rounded-4xl bg-primary w-full h-2/3 z-0'></div>
           </div>

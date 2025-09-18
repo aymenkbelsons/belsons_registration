@@ -193,9 +193,9 @@ const RegistrationForm = () => {
     cursor-pointer
   "  />
           <label htmlFor="agree" className="text-sm">
-            agree to receive course-related emails,
+            {t('form_agree_1')}
             <br />
-            including the session link and reminders.
+            {t('form_agree_2')}
           </label>
         </div>
         {errors.agree && (
