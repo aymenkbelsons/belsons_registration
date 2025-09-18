@@ -9,11 +9,16 @@ import SimpleInput from './ui/SimpleInput'
 import { useMutation } from '@tanstack/react-query'
 import toast from 'react-hot-toast'
 import { useLocale, useTranslations } from 'next-intl'
+import { Input } from '@headlessui/react'
+import classNames from 'classnames'
 
 const RegistrationForm = () => {
   const [isFormLoading, setIsFormLoading] = useState(false)
   const t = useTranslations('Form')
   const locale = useLocale()
+  const isRTL = locale === 'ar'
+
+
 
   const {
     register,
@@ -30,7 +35,7 @@ const RegistrationForm = () => {
       const res = await fetch('/api/send-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...data, locale }),
+        body: JSON.stringify(data),
       })
 
       const result = await res.json()
@@ -63,7 +68,12 @@ const RegistrationForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className={`flex flex-col items-center w-full lg:w-2/3 gap-4 ${isFormLoading ? 'opacity-50 pointer-events-none' : ''}`}
+      dir={isRTL ? 'rtl' : 'ltr'}
+      className={classNames(
+        'flex flex-col items-center w-full lg:w-2/3 gap-4',
+        isFormLoading && 'opacity-50 pointer-events-none',
+        isRTL ? 'text-right' : 'text-left'
+      )}
     >
       <SimpleInput
         name="name"
@@ -71,6 +81,7 @@ const RegistrationForm = () => {
         register={register}
         title={t('name_title')}
         errorMessage={errors.name?.message}
+        isRTL={isRTL}
       />
 
       <SimpleInput
@@ -79,6 +90,7 @@ const RegistrationForm = () => {
         register={register}
         title={t('email_title')}
         errorMessage={errors.email?.message}
+        isRTL={isRTL}
       />
 
       <div className="flex flex-col w-full">
@@ -91,6 +103,7 @@ const RegistrationForm = () => {
             title=""
             errorMessage={errors.day?.message}
             registerOptions={{ valueAsNumber: true, min: 1, max: 31 }}
+            isRTL={isRTL}
           />
           <SimpleInput
             name="month"
@@ -99,6 +112,7 @@ const RegistrationForm = () => {
             title=""
             errorMessage={errors.month?.message}
             registerOptions={{ valueAsNumber: true, min: 1, max: 12 }}
+            isRTL={isRTL}
           />
           <SimpleInput
             name="year"
@@ -107,6 +121,7 @@ const RegistrationForm = () => {
             title=""
             errorMessage={errors.year?.message}
             registerOptions={{ valueAsNumber: true }}
+            isRTL={isRTL}
           />
         </div>
       </div>
@@ -120,6 +135,7 @@ const RegistrationForm = () => {
             register={register}
             title=""
             errorMessage={errors.city?.message}
+            isRTL={isRTL}
           />
           <SimpleInput
             name="country"
@@ -127,6 +143,7 @@ const RegistrationForm = () => {
             register={register}
             title=""
             errorMessage={errors.country?.message}
+            isRTL={isRTL}
           />
         </div>
       </div>
@@ -137,6 +154,7 @@ const RegistrationForm = () => {
         register={register}
         title={t('occupation_title')}
         errorMessage={errors.occupation?.message}
+        isRTL={isRTL}
       />
 
       <SimpleInput
@@ -145,6 +163,7 @@ const RegistrationForm = () => {
         register={register}
         title={t('message1_title')}
         errorMessage={errors.message_1?.message}
+        isRTL={isRTL}
       />
 
       <SimpleInput
@@ -153,7 +172,36 @@ const RegistrationForm = () => {
         register={register}
         title={t('message2_title')}
         errorMessage={errors.message_2?.message}
+        isRTL={isRTL}
       />
+
+      {/* Checkbox with validation */}
+      <div className="w-full flex flex-col gap-1">
+        <div className="flex items-center gap-2">
+          <Input
+            type="checkbox"
+            id="agree"
+            {...register('agree')}
+            className="
+    w-6 h-6 
+    rounded-md 
+    border-2 border-primary 
+    appearance-none
+    checked:bg-primary checked:border-primary
+    checked:before:content-['✔'] checked:before:text-white 
+    checked:before:flex checked:before:items-center checked:before:justify-center
+    cursor-pointer
+  "  />
+          <label htmlFor="agree" className="text-sm">
+            agree to receive course-related emails,
+            <br />
+            including the session link and reminders.
+          </label>
+        </div>
+        {errors.agree && (
+          <p className="text-red-500 text-sm">{errors.agree.message}</p>
+        )}
+      </div>
 
       <button
         type="submit"
