@@ -50,7 +50,7 @@ const RegistrationForm = () => {
       setIsFormLoading(true)
     },
     onSuccess: () => {
-      toast.success('🎉 ' + t('success'), { id: 'reg' })
+      toast.success('🎉 ', { id: 'reg' })
       reset()
     },
     onError: (error) => {

@@ -29,7 +29,7 @@ const BootCampEmail = () => {
           <Container style={{ padding: '0 32px', textAlign: 'center' }}>
             <div style={{ display: 'inline-block' }}>
               <Img
-                src="https://i.ibb.co/23CS7wLv/Group-1410103797.png"
+                src="https://belsonstechnologies.dz/wp-content/uploads/2025/09/Group-1410103884.png"
                 alt="Cyber Security Banner"
                 width="200"
                 style={{ display: 'block', margin: '0 auto' }}
