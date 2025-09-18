@@ -81,6 +81,14 @@
       {
         "qst": "Vais-je recevoir un certificat ?",
         "answ": "Oui, un certificat sera remis à la fin de la formation."
+      },
+      {
+        "qst": "Comment bénéficier du tarif étudiant ?",
+        "answ": "Vous devrez présenter une carte d’étudiant valide ou une preuve d’inscription lors de l’enregistrement."
+      },
+      {
+        "qst": "Combien de places sont disponibles ?",
+        "answ": "Les places sont limitées afin de garder la formation interactive. Une inscription anticipée est conseillée."
       }
     ]
   },

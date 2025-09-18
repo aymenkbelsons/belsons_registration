@@ -77,11 +77,19 @@
     "faq_list": [
       {
         "qst": "Do I need previous IT experience?",
-        "answ": "Yes – 100% free. No hidden fees, no catch."
+        "answ": "No, the training starts from the basics and advances step by step."
       },
       {
         "qst": "Will I get a certificate?",
-        "answ": "The session will be live, not recorded. "
+        "answ": "Yes, all participants receive a recognized certificate of completion."
+      },
+      {
+        "qst": "How do I qualify for the student discount?",
+        "answ": "You’ll need to show a valid student card or enrollment proof at registration."
+      },
+      {
+        "qst": "How many seats are available?",
+        "answ": "Seats are limited to keep the training interactive. Early registration is advised."
       }
     ]
   },
