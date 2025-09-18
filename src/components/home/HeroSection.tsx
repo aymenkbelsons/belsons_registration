@@ -39,8 +39,8 @@ const HeroSection = () => {
         </h1>
         <div className='flex items-center justify-between w-full lg:w-fit lg:gap-12 z-10'>
           {list.map((item, i) => (
-            <div key={i} className='flex flex-col items-center justify-center gap-1'>
-              <span>
+            <div key={i} className='flex flex-col items-center justify-center text-center gap-1'>
+              <span className='font-bold'>
                 {item.item_1}
               </span>
               <span>
@@ -58,7 +58,7 @@ const HeroSection = () => {
               12,000 DA
             </span>
           </div>
-          <div className='flex flex-col items-center  bg-[#03112F]/50 py-1 px-4 rounded'>
+          <div className='flex flex-col items-center  bg-[#03112F]/50 py-1 px-4 rounded text-sm lg:text-bae'>
             <span className='uppercase text-primary'>
               {t('hero_student')}
             </span>
