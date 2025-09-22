@@ -77,7 +77,7 @@ const HeroSection = () => {
             </span>
           </Link>
         </div>
-        <div className='w-[800px] h-[800px] lg:w-[1200px] lg:h-[1000px] bg-primary absolute backdrop-blur-2xl blur-3xl -top-[140%] lg:-top-[110%] rounded-full z-0'></div>
+        <div className='w-full h-[1000px] lg:w-[1200px] lg:h-[1000px] bg-primary absolute backdrop-blur-2xl blur-3xl -top-[140%] lg:-top-[110%] rounded-full z-0'></div>
       </div>
     </Container>
   )
