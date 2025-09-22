@@ -23,6 +23,7 @@ const BootCampEmail = () => {
           fontFamily: 'Cairo, Arial, sans-serif',
           direction: 'rtl',
         }}
+        dir="rtl"
       >
         {/* Top blue banner */}
         <Section style={{ backgroundColor: '#0968FF', padding: '32px 0' }}>

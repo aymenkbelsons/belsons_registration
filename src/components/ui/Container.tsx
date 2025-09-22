@@ -15,7 +15,7 @@ const Container = ({
   return (
     <section
       className={classNames(
-        'h-auto py-12 lg:py-20  relative',
+        'h-auto py-12 lg:py-20 w-full relative',
         className
       )}
       {...rest}

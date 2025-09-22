@@ -22,7 +22,7 @@ const Page = () => {
 
 
   return (
-    <>
+    <div className='w-full'>
       <HeroSection />
       <AboutSection />
       <Container className='bg-gradient-to-r from-[#012866] to-primary' innerClassName='flex justify-center' dir={isRTL ? "rtl" : "ltr"}>
@@ -49,10 +49,6 @@ const Page = () => {
             <span className='font-semibold'>
               {t('building_title_1')}
             </span>
-            <br />
-            {t('building_title_2')}
-            <br />
-            {t('building_title_3')}
           </h1>
           <ul className='flex flex-col gap-2.5' dir={isRTL ? "rtl" : "ltr"} >
             {list.map((item, i) => (
@@ -98,7 +94,7 @@ const Page = () => {
       <Container>
         <div></div>
       </Container>
-    </>
+    </div>
   )
 }
 

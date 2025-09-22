@@ -47,7 +47,7 @@ export default async function LocaleLayout({
   const locale = await getLocale();
   return (
     <html lang={locale} data-arp=''>
-      <body className={classNames("bg-dark-primary text-white overflow-x-clip", cairo.className)}>
+      <body className={classNames("bg-dark-primary text-white overflow-x-clip w-screen", cairo.className)}>
         <TankSrackWraper>
           <NextIntlClientProvider>
             <Toaster position="top-center" reverseOrder={false} />

@@ -33,7 +33,7 @@ const FaqSection = () => {
             <div key={i} className='w-full'>
               <button
                 onClick={() => toggleIndex(i)}
-                className='text-lg lg:text-2xl text-white flex items-center justify-between w-full py-9 border-b border-b-white/20'
+                className='text-lg lg:text-2xl text-white text-start flex items-center justify-between w-full py-9 border-b border-b-white/20'
               >
                 <span>{item.qst}</span>
                 <Plus />
@@ -49,7 +49,7 @@ const FaqSection = () => {
                     transition={{ duration: 0.3 }}
                     className="overflow-hidden text-sm text-white/80"
                   >
-                    <div className='py-6 text-base lg:text-xl'>{item.answ}</div>
+                    <div className='py-6 text-base lg:text-xl text-start'>{item.answ}</div>
                   </motion.div>
                 )}
               </AnimatePresence>
