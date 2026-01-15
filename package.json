@@ -18,7 +18,7 @@
     "googleapis": "^152.0.0",
     "moment": "^2.30.1",
     "motion": "^12.23.5",
-    "next": "15.3.5",
+    "next": "15.3.8",
     "next-intl": "^4.3.4",
     "nodemailer": "^7.0.5",
     "react": "^19.0.0",
