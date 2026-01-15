@@ -173,7 +173,7 @@ export const GoogleMeetEmailAr = ({ name }: { name: string }) => {
         </Section>
 
         {/* Footer */}
-        <Section style={{ backgroundColor: '#0968FF', padding: '32px 0' }}>
+        <Section style={{ backgroundColor: '#0968FF', padding: '30px 0' }}>
           <Container style={{ padding: '0 32px', textAlign: 'center' }}>
             <div style={{ display: 'inline-block' }}></div>
           </Container>
